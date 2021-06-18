@@ -1,0 +1,13 @@
+// Technologies
+// Classic React
+
+// Next js: it is a wrapper react framework used for server side rendering(SSR) right from client side js/es6
+
+// Tailwindcss : A utility-first CSS framework packed with classes 
+// like flex, pt-4, text-center and rotate-90 etc that can be composed to build any design, directly in your markup without any real css manual code.
+// With Tailwind css we do not need to write css code, just need to remember the standard tailwind css classes to apply whatever styles you want in your design.
+// Example : a class of p-6 on a html element means a padding with 24px or 1.5 rem and so on.
+
+//Tabnine: It is an AI-powered code completion extension trusted by millions of developers around the world. 
+//Whether you’re just getting started as a developer or if you’ve been doing it for decades, 
+//Tabnine will help you code twice as fast with half the keystrokes – all in your favorite IDE.

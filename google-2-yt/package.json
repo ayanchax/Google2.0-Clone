@@ -1,0 +1,26 @@
+{
+  "name": "google-2-yt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@heroicons/react": "^1.0.1",
+    "babel-preset-next": "^1.4.0",
+    "next": "11.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "eslint": "7.28.0",
+    "eslint-config-next": "11.0.0",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.2"
+  }
+}
