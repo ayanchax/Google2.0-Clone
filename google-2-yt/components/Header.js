@@ -43,9 +43,10 @@ function Header() {
                     <Image
                         onClick={home}
                         className="cursor-pointer"
-                        height={40}
                         width={120}
+                        height={40}
                         src={SITE_LOGO}
+                        objectFit="contain"
                     />
                 </div>
                 <div className="flex flex-grow space-x-4 items-center">
@@ -56,6 +57,7 @@ function Header() {
                             onChange={updateSearchHandler}
                             ref={searchInputRef}
                             type="text"
+
                             className="flex-grow focus: outline-none"
                         />
                         <XIcon
