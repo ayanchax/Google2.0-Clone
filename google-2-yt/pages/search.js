@@ -5,6 +5,7 @@ import { APP_MODE } from "../config"
 import Response from '../Response'
 import { useRouter } from "next/router"
 import SearchResults from '../components/SearchResults'
+import Footer from '../components/Footer'
 function Search({ results }) {
     console.log(results)
     const router = useRouter()
@@ -37,6 +38,9 @@ function Search({ results }) {
             <Header />
 
             <SearchResults results={results} />
+            {/* Show footer if there is not an error */}
+            {!results.error && (<Footer />)}
+
 
         </div>
     )
