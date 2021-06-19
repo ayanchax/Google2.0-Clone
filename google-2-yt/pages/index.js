@@ -6,6 +6,7 @@ import { MicrophoneIcon, ViewGridIcon } from "@heroicons/react/solid"
 import { SearchIcon } from "@heroicons/react/outline"
 import { useRef } from "react"
 import { useRouter } from "next/router"
+import { AVATAR_URL } from "../config"
 export default function Home() {
   const router = useRouter()
   const searchInputRef = useRef(null)
@@ -14,7 +15,7 @@ export default function Home() {
     const term = searchInputRef.current.value
     if (!term)
       return;
-    router.push(`/search?term=${term}`)
+    router.push(`/search?term=${term}&start=0`)
   }
   return (
     <div className="flex flex-col justify-center items-center h-screen">
@@ -34,7 +35,7 @@ export default function Home() {
           <p className="link">Images</p>
 
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
-          <Avatar url="https://scontent.fccu20-1.fna.fbcdn.net/v/t1.6435-9/197154084_4327876977298942_4787908797740236048_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=XlCFtX54uC4AX_Doi0v&_nc_ht=scontent.fccu20-1.fna&oh=3b2380773c374fe0c56c75e9b0a6717f&oe=60D27E28" />
+          <Avatar url={AVATAR_URL} />
         </div>
       </header>
       {/* Body */}

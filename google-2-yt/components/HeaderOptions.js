@@ -1,9 +1,16 @@
 import HeaderOption from "./HeaderOption";
-import { SearchIcon, PhotographIcon, PlayIcon, NewspaperIcon, MapIcon, DotsVerticalIcon } from '@heroicons/react/solid'
+import {
+    SearchIcon,
+    PhotographIcon,
+    PlayIcon,
+    NewspaperIcon,
+    MapIcon,
+    DotsVerticalIcon,
+} from "@heroicons/react/solid";
 
 function HeaderOptions() {
     return (
-        <div className="flex w-full text0-gray-700 justify-evenly text-sm lg:text-base lg:justify-start lg:pl-52 lg:space-x-36 border-b-[1px]">
+        <div className="flex w-full text-gray-700 justify-evenly text-sm lg:text-base lg:justify-start lg:pl-52 lg:space-x-36 border-b-[1px]">
             {/* left section */}
             <div className="flex space-x-6">
                 <HeaderOption Icon={SearchIcon} title="All" selected />
@@ -19,7 +26,7 @@ function HeaderOptions() {
                 <p className="link">Tools</p>
             </div>
         </div>
-    )
+    );
 }
 
-export default HeaderOptions
+export default HeaderOptions;
