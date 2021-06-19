@@ -49,8 +49,8 @@ export default function Home() {
           <MicrophoneIcon className="h-5 mr-3 text-gray-500" />
         </div>
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
-          <button onClick={search} className="btn hover:ring-1 focus:outline-none active: ring-gray-300 hover:shadow-md" type="submit">Google Search</button>
-          <button onClick={search} className="btn hover:ring-1 focus:outline-none active: ring-gray-300 hover:shadow-md" type="submit">I'm Feeling Lucky</button>
+          <button onClick={search} className="btn hover:ring-1 focus:outline-none active: ring-gray-300 hover:shadow-md" type="submit">Search Now</button>
+          <button onClick={search} className="btn hover:ring-1 focus:outline-none active: ring-gray-300 hover:shadow-md" type="submit">I'm Loving It</button>
         </div>
       </form>
       {/* Footer */}
