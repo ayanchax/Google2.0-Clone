@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Technology stack
 
-Classic [React](https://reactjs.org/) React is an open-source front-end JavaScript library for building user interfaces or UI components.<br/>s It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.<br/><br/>
+Classic [ReactJS](https://reactjs.org/): React JS is an open-source front-end JavaScript library for building user interfaces or UI components.<br/>s It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.<br/><br/>
 
 [Next JS](https://nextjs.org/): it is a wrapper react framework used for server side rendering(SSR) right from client side js/es6 <br/>
 
