@@ -1,35 +1,20 @@
 SITE URL : https://google2-0-clone.vercel.app/
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Technology stack
 
-First, run the development server:
+Classic [React](https://reactjs.org/) React is an open-source front-end JavaScript library for building user interfaces or UI components.<br/>s It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.<br/><br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[Next JS](https://nextjs.org/): it is a wrapper react framework used for server side rendering(SSR) right from client side js/es6 <br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Tailwindcss](https://tailwindcss.com/docs/guides/nextjs) : A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 etc that can be composed to build any design, directly in your markup without any real css manual code.<br/>
+With Tailwind css we do not need to write css code, just need to remember the standard tailwind css classes to apply whatever styles you want in your design.<br/>
+Example : a class of p-6 on a html element means a padding with 24px or 1.5 rem and so on.<br/><br/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+[Tabnine](https://www.tabnine.com/): It is an AI-powered code completion VS code extension trusted by millions of developers around the world.<br/>
+Whether you’re just getting started as a developer or if you’ve been doing it for decades.<br/>
+Tabnine will help you code twice as fast with half the keystrokes – all in your favorite IDE.<br/><br/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[Google API](https://developers.google.com/custom-search/v1/using_rest) And [Google Context Search](https://cse.google.com/cse/create/new): This is used for creating custom search engine based on context of user search and Google Account Developer API key.<br/><br/>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Vercel](https://vercel.com/dashboard) : It is a Next JS deployable engine that combines the best developer experience with an obsessive focus on end-​user performance along with CI loop directly from Github. This app is deployed on Vercel.<br/><br/>
