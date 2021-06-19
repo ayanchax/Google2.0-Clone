@@ -15,6 +15,7 @@ export default function Home() {
     const term = searchInputRef.current.value
     if (!term)
       return;
+
     router.push(`/search?term=${term}&start=0`)
   }
   return (
