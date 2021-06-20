@@ -16,7 +16,7 @@ function Footer() {
                     <p className="link">How Search works</p>
                 </div>
                 <div className="flex justify-center items-center md:col-span-2 lg:col-span-1 ">
-                    Made with&nbsp;<HeartIcon className="h-5 mr-1 text-red-700" /> by &nbsp;<a className="hover:underline text-blue-400" href="#https://github.com/ayanchax?tab=repositories" target="_blank">Ayan Chax</a>
+                    Made with&nbsp;<HeartIcon className="h-5 mr-1 text-red-700" /> by &nbsp;<a className="hover:underline text-blue-400" href="https://github.com/ayanchax?tab=repositories" target="_blank">Ayan Chax</a>
                 </div>
                 <div className="flex justify-center space-x-8 mr-4  md:ml-auto text-gray-500">
                     <p className="link">Privacy</p>
